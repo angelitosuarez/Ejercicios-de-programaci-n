@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    //12321
+    //23432
 
     long long num, inv=0;
     cout << "Introduce un numero para saber si es capicua o no" << endl;
