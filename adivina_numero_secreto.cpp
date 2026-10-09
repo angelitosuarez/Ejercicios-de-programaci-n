@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    srand(time(0)); //semilla 
+    srand(time(0)); //grande
     long aletorio = rand()%101;
 
     cout << "Hora de adivinar un numero entre 0 y 100" << endl;
