@@ -22,20 +22,20 @@ int main(){
         return 1;
     }
 
-    int original = n;
-    int suma = 0;
+    int origen = n;
+    int sum = 0;
 
     while (n>0)
     {
         int digito = n%10;
-        int cubo = pow(digito, 3);
+        int tercero = pow(digito, 3);
         n/=10;
         
-        suma = suma + cubo;
+        sum = sum + tercero;
         
     }
     
-    if (suma==original)
+    if (sum==origen)
     {
         cout << "Es narcisista";
     
