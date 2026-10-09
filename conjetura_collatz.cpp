@@ -6,12 +6,12 @@ int main(){
     //la secuencia para 6 es (3,10,5,16,8,4,2,1) ==> 8 pasos
 
     long n;
-    cout << "Dame un numero mayor que 0" << endl;
+    cout << "Introduce un numero mayor que 0" << endl;
     cin >> n;
 
     if (n<=0){
 
-        cout << "Eres tonto o no sabes leer?";
+        cout << "Eres tonto o que?";
         return 1;
 
     }
